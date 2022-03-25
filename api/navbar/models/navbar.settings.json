@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logoLightTheme": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "logoDarkTheme": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.buttons",
+        "shared.navbar-item"
+      ]
+    },
+    "CountrySigninButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.country-signin-button"
+    },
+    "announcementBar": {
+      "type": "text"
+    }
+  }
+}

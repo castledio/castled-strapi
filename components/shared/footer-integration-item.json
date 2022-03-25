@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_footer_integration_items",
+  "info": {
+    "name": "footerIntegrationItem",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "companyLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "isEnabled": {
+      "type": "boolean"
+    }
+  }
+}

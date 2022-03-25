@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/integration-generic-content",
+      "handler": "integration-generic-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/integration-generic-content",
+      "handler": "integration-generic-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/integration-generic-content",
+      "handler": "integration-generic-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

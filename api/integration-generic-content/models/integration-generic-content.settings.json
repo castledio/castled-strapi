@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "integration_generic_contents",
+  "info": {
+    "name": "IntegrationGenericContent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sourceSubheading": {
+      "type": "text"
+    },
+    "sourceBody": {
+      "type": "text"
+    },
+    "destinationSubheading": {
+      "type": "text"
+    },
+    "destinationBody": {
+      "type": "text"
+    },
+    "syncSubheading": {
+      "type": "text"
+    },
+    "syncBody": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_slices_plan_feature_lists",
+  "info": {
+    "name": "PlanFeatureList",
+    "icon": "battery-three-quarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "clientLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.client-logos"
+    },
+    "valuesArray": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.company-values"
+    }
+  }
+}

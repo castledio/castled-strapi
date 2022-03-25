@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/marketing",
+      "handler": "marketing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/marketing",
+      "handler": "marketing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/marketing",
+      "handler": "marketing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

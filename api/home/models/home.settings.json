@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageLink": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.client-logos",
+        "slices.slide-section",
+        "slices.company-values",
+        "slices.events-section",
+        "slices.home-case-study",
+        "shared.image"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/data-teams",
+      "handler": "data-teams.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/data-teams",
+      "handler": "data-teams.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/data-teams",
+      "handler": "data-teams.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

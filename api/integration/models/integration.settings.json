@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "integrations",
+  "info": {
+    "name": "Integration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "source",
+        "destination"
+      ],
+      "default": "destination"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "websiteLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "description": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "SvgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image",
+      "required": true
+    }
+  }
+}

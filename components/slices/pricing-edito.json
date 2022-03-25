@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_slices_pricing_editos",
+  "info": {
+    "name": "pricingEdito",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "scripts",
+  "info": {
+    "name": "Scripts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "scriptComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.script-component"
+    }
+  }
+}

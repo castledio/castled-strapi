@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions",
+  "info": {
+    "name": "Solutions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageLink": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.company-values",
+        "slices.home-case-study",
+        "slices.solutions-edito"
+      ]
+    }
+  }
+}

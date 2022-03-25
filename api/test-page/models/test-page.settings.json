@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_pages",
+  "info": {
+    "name": "TestPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    },
+    "pricingSlider": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_slices_company_values",
+  "info": {
+    "name": "valuesArray",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "companyValues"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    } ,
+    "value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value"
+    }
+  }
+}

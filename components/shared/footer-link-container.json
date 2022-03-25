@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_footer_link_containers",
+  "info": {
+    "name": "footerLinkContainer",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "containerHeading": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_script_components",
+  "info": {
+    "name": "scriptComponent",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "isApplied": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "script": {
+      "type": "text"
+    },
+    "isSource": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isAsync": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

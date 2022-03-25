@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions_data_teams",
+  "info": {
+    "name": "SolutionsDataTeams",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+     "body": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.company-values",
+        "slices.home-case-study",
+        "slices.solutions-edito"
+      ]
+    }
+  }
+}

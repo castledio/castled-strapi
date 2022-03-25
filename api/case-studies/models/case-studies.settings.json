@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "name": "caseStudies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "testimonial": {
+      "type": "text"
+    },
+    "nameOfPerson": {
+      "type": "string"
+    },
+    "designationOfPerson": {
+      "type": "string"
+    },
+    "highlightedFigure": {
+      "type": "string"
+    },
+    "highlightedText": {
+      "type": "string"
+    },
+    "companyLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

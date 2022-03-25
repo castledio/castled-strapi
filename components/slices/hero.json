@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_slices_heroes",
+  "info": {
+    "name": "hero",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+     "sectionName": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+     "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    },
+      "main-image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image"
+    }
+  }
+}

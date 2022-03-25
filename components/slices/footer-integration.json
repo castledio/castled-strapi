@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_footer_integrations",
+  "info": {
+    "name": "footerIntegration",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "isVisible": {
+      "type": "boolean"
+    },
+    "footerIntegrationItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-integration-item"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_plan_card_contents",
+  "info": {
+    "name": "PlanCardContent",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "test": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.client-logos"
+    }
+  }
+}

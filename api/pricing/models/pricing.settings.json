@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "name": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "pageLink": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.faqs",
+        "slices.pricing-edito",
+        "slices.compare-plans",
+        "shared.price-slider",
+        "slices.plan-feature-list"
+      ]
+    }
+  }
+}

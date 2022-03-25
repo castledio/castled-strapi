@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_slices_compare_plans",
+  "info": {
+    "name": "comparePlans",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+     "sectionName": {
+      "type": "string"
+    },
+    "sectionHeading": {
+      "type": "string"
+    },
+    "sectionSubheading": {
+      "type": "string"
+    },
+    "feature" : {
+          "type": "component",
+      "repeatable": true,
+      "component": "shared.plans-item"
+    }
+  }
+}

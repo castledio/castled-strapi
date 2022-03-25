@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions_customer_successes",
+  "info": {
+    "name": "SolutionsCustomerSuccess"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+     "body": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.company-values",
+        "slices.home-case-study",
+        "slices.solutions-edito"
+      ]
+    }
+  }
+}

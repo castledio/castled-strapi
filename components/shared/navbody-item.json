@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_navbody_items",
+  "info": {
+    "name": "NavbarBodyData",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "href": {
+      "type": "string"
+    },
+    "svgContent": {
+      "type": "text"
+    }
+  }
+}

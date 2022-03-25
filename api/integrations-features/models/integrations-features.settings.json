@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "integrations_features",
+  "info": {
+    "name": "IntegrationsFeatures"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.company-values"
+    }
+  }
+}

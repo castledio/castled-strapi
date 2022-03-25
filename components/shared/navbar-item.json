@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_navbar_items",
+  "info": {
+    "name": "NavbarItem",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+       "mainHref": {
+      "type": "string"
+    },
+    "showDropdown": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "NavbarBodyItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navbar-body-item"
+    }
+  }
+}

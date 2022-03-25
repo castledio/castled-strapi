@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_plan_features",
+  "info": {
+    "name": "planFeature",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "availableOnFree": {
+      "type": "boolean",
+      "default": false,
+      "required": true,
+      "unique": false
+    },
+    "availableOnStarter": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "availableOnBusiness": {
+      "type": "boolean"
+    },
+    "hideFeature": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_country_signin_buttons",
+  "info": {
+    "name": "CountrySigninButton",
+    "icon": "battery-full"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "countryWiseLogin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.country-wise-login"
+    }
+  }
+}

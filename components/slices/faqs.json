@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_slices_faqs",
+  "info": {
+    "name": "Faqs",
+    "icon": "battery-empty",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "QuestionAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.question-answer"
+    }
+  }
+}

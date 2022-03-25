@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_slices_slide_sections",
+  "info": {
+    "name": "slide-section",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+     "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "required": true,
+      "default": "light"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.hero"
+    }
+  }
+}

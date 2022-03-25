@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/scripts",
+      "handler": "scripts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/scripts",
+      "handler": "scripts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/scripts",
+      "handler": "scripts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

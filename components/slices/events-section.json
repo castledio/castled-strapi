@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_slices_events_sections",
+  "info": {
+    "name": "eventsSection",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "event": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.single-event"
+    },
+    "sectionName": {
+      "type": "string"
+    },
+    "isEnabled": {
+      "type": "boolean"
+    }
+  }
+}

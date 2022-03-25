@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_navbar_body_items",
+  "info": {
+    "name": "NavbarBodyItem",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "NavbodyItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navbody-item"
+    }
+  }
+}

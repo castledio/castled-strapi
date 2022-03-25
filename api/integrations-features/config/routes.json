@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/integrations-features",
+      "handler": "integrations-features.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/integrations-features",
+      "handler": "integrations-features.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/integrations-features",
+      "handler": "integrations-features.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

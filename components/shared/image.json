@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_images",
+  "info": {
+    "name": "Image",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "svgContent": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

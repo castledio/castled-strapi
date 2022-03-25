@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_plans_items",
+  "info": {
+    "name": "plansItem",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

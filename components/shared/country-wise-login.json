@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_country_wise_logins",
+  "info": {
+    "name": "countryWiseLogin",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "text"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ]
+    }
+  }
+}
