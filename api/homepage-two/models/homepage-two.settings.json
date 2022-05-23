@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_twos",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homepage": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero",
+        "slices.company-values",
+        "slices.solutions-edito"
+      ]
+    },
+    "pageName": {
+      "type": "string"
+    }
+  }
+}
