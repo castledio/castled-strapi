@@ -1,8 +1,0 @@
-{
-    "provider": "cloudinary",
-    "providerOptions": {
-        "cloud_name": "pranjaldoorwar",
-        "api_key": "221444293396178",
-        "api_secret": "Z1bschKIV4ZARe4PY3G6R1SNRl0"
-    }
-}

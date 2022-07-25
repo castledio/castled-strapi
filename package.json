@@ -9,9 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/provider-upload-cloudinary": "^4.0.3",
+    "@strapi/provider-upload-aws-s3": "^4.2.3",
     "knex": "0.21.18",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
@@ -25,7 +24,6 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-provider-upload-cloudinary": "^3.6.8",
     "strapi-utils": "3.6.8"
   },
   "author": {
@@ -33,10 +31,6 @@
   },
   "strapi": {
     "uuid": "0079469f-a168-4c87-8876-5caf76267185"
-  },
-  "engines": {
-    "node": "16.14.0",
-    "npm": "^6.0.0"
   },
   "license": "MIT"
 }

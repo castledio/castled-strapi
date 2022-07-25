@@ -1,5 +1,5 @@
 module.exports = [
-  'strapi::errors',
+  // ...
   {
     name: 'strapi::security',
     config: {
@@ -7,18 +7,24 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
-          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
+          'img-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'castled-website.s3.AP_SOUTH_1.amazonaws.com',
+          ],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'castled-website.s3.AP_SOUTH_1.amazonaws.com',
+          ],
           upgradeInsecureRequests: null,
         },
       },
     },
   },
-  'strapi::cors',
-  'strapi::poweredBy',
-  'strapi::logger',
-  'strapi::query',
-  'strapi::body',
-  'strapi::favicon',
-  'strapi::public',
+  // ...
 ];
