@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@strapi/provider-upload-aws-s3": "^4.2.3",
-    "@strapi/provider-upload-cloudinary": "^4.0.3",
+    "strapi-provider-upload-cloudinary": "3.6.10",
     "knex": "0.21.18",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
