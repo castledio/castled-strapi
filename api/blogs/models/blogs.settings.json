@@ -15,8 +15,8 @@
     "title": {
       "type": "string"
     },
-    "slug" : {
-      "type" : "string"
+    "slug": {
+      "type": "string"
     },
     "descrption": {
       "type": "string"
@@ -71,6 +71,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "categories": {
+      "via": "blogs",
+      "collection": "blog-category"
     }
   }
 }
