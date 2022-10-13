@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_slices_featured_blogs",
+  "info": {
+    "name": "FeaturedBlog",
+    "icon": "dharmachakra"
+  },
+  "options": {},
+  "attributes": {
+    "blog": {
+      "model": "blogs"
+    }
+  }
+}
