@@ -21,9 +21,6 @@
     "descrption": {
       "type": "string"
     },
-    "category": {
-      "type": "string"
-    },
     "thumbnail": {
       "model": "file",
       "via": "related",
@@ -75,6 +72,9 @@
     "categories": {
       "via": "blogs",
       "collection": "blog-category"
+    },
+    "isFeatured": {
+      "type": "boolean"
     }
   }
 }
