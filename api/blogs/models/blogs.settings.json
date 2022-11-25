@@ -82,7 +82,7 @@
       "component": "shared.seo"
     },
     "videoLink" : {
-      "type" : "string"
+      "type" : "text"
     }
   }
 }
